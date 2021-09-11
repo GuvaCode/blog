@@ -3,7 +3,7 @@ title: Pascal for C users
 author: wiki.freepascal.org
 date: 2021-09-11 20:55:00 +0800
 categories: [Tutorial]
-tags: [lazarus pascal c c++]
+tags: [lazarus] [pascal] [c] [c++] [programming]
 pin: true
 ---
 **Note:** Logical operators (AND/OR/XOR etc) are logical or boolean depending on the type of the arguments (boolean or integer). Since Pascal had a separate boolean type from the start, boolean operators on integers were not necessary, and are always logical.
