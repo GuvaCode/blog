@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
+    disqus-for-jekyll (1.0.0)
       jekyll (~> 3.3)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -75,6 +76,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  disqus-for-jekyll
   jekyll
   jekyll-gist
   jekyll-git_metadata
