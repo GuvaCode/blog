@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Colorie</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-09-11T15:22:57+05:00</updated>
+ <link href="http://localhost:4000https://guvacode.github.io/blog//atom.xml" rel="self"/>
+ <link href="http://localhost:4000https://guvacode.github.io/blog//"/>
+ <updated>2021-09-11T15:28:13+05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Colorie</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>Remaining essentially unchanged</title>
-   <link href="http://localhost:4000/2017/05/12/lorem-ipsum"/>
+   <link href="http://localhost:4000https://guvacode.github.io/blog//2017/05/12/lorem-ipsum"/>
    <updated>2017-05-12T00:00:00+05:00</updated>
    <id>http://localhost:4000/2017/05/12/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
@@ -34,7 +34,7 @@
  
  <entry>
    <title>Desktop publishing software</title>
-   <link href="http://localhost:4000/2016/07/31/lorem-ipsum"/>
+   <link href="http://localhost:4000https://guvacode.github.io/blog//2016/07/31/lorem-ipsum"/>
    <updated>2016-07-31T00:00:00+05:00</updated>
    <id>http://localhost:4000/2016/07/31/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
@@ -43,7 +43,7 @@
  
  <entry>
    <title>Printing and typesetting industry</title>
-   <link href="http://localhost:4000/2015/07/31/lorem-ipsum"/>
+   <link href="http://localhost:4000https://guvacode.github.io/blog//2015/07/31/lorem-ipsum"/>
    <updated>2015-07-31T00:00:00+05:00</updated>
    <id>http://localhost:4000/2015/07/31/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
@@ -52,7 +52,7 @@
  
  <entry>
    <title>Simply dummy text</title>
-   <link href="http://localhost:4000/2014/05/12/lorem-ipsum"/>
+   <link href="http://localhost:4000https://guvacode.github.io/blog//2014/05/12/lorem-ipsum"/>
    <updated>2014-05-12T00:00:00+06:00</updated>
    <id>http://localhost:4000/2014/05/12/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
@@ -72,7 +72,7 @@
  
  <entry>
    <title>Lorem Ipsum</title>
-   <link href="http://localhost:4000/2012/07/31/lorem-ipsum"/>
+   <link href="http://localhost:4000https://guvacode.github.io/blog//2012/07/31/lorem-ipsum"/>
    <updated>2012-07-31T00:00:00+06:00</updated>
    <id>http://localhost:4000/2012/07/31/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
