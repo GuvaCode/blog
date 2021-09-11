@@ -25,6 +25,10 @@ social:
   
 permalink: pretty
 
+disqus:
+  name: "your disqus username" # required
+  noscript: "Please enable JavaScript to view the comments powered by Disqus." # optional
+
 baseurl:             ""
 
 include:
