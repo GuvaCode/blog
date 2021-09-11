@@ -63,7 +63,7 @@ post:
   updated: Обновлено
   timeago:
     day: дней назад
-    hour: часов назад
+    hour: часа(ов) назад
     minute: минут назад
     just_now: прямо сейчас
   words: слов
