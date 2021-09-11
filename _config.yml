@@ -20,7 +20,7 @@ timezone: Asia/Ekaterinburg
 
 title: Guva Code                          # the main title
 
-tagline: pascal programing   # it will display as the sub-title
+tagline: just pascal programing   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -72,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  
+theme_mode: [dark]  
  # [light|dark]
 
 # The CDN endpoint for images.
