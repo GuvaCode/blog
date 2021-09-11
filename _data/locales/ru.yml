@@ -23,7 +23,7 @@ search:
   no_results: Ой! Результатов не найдено.
 
 panel:
-  lastmod: Недавнее обновление
+  lastmod: Новые записи
   trending_tags: Популярные теги
   toc: Содержание
 
@@ -60,14 +60,14 @@ not_found:
 
 post:
   published: 'on'
-  updated: Updated
+  updated: Обновлено
   timeago:
-    day: days ago
-    hour: hours ago
-    minute: minutes ago
-    just_now: just now
-  words: words
-  pageview_measure: views
+    day: дней назад
+    hour: часов назад
+    minute: минут назад
+    just_now: прямо сейчас
+  words: слов
+  pageview_measure: просмотров
   read_time:
     unit: min
     prompt: read
