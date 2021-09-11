@@ -1,0 +1,465 @@
+I"�><p><strong>Note:</strong> Logical operators (AND/OR/XOR etc) are logical or boolean depending on the type of the arguments (boolean or integer). Since Pascal had a separate boolean type from the start, boolean operators on integers were not necessary, and are always logical.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>C</th>
+      <th><a href="https://wiki.freepascal.org/Pascal" title="Pascal">Pascal</a></th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{</td>
+      <td><a href="https://wiki.freepascal.org/Begin" title="Begin">Begin</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>}</td>
+      <td><a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>=</td>
+      <td>:=</td>
+      <td><a href="https://wiki.freepascal.org/Becomes" title="Becomes">Becomes</a></td>
+    </tr>
+    <tr>
+      <td>==</td>
+      <td>=</td>
+      <td><a href="https://wiki.freepascal.org/Equal" title="Equal">Equal</a></td>
+    </tr>
+    <tr>
+      <td>/</td>
+      <td>/</td>
+      <td><a href="https://wiki.freepascal.org/Slash" title="Slash">Float Division</a> (Integer: <a href="https://wiki.freepascal.org/Div" title="Div">div</a>)</td>
+    </tr>
+    <tr>
+      <td>%</td>
+      <td><a href="https://wiki.freepascal.org/Mod" title="Mod">Mod</a></td>
+      <td>Modulo operation</td>
+    </tr>
+    <tr>
+      <td>!</td>
+      <td><a href="https://wiki.freepascal.org/Not" title="Not">Not</a></td>
+      <td>Logical not</td>
+    </tr>
+    <tr>
+      <td>!=</td>
+      <td>&lt;&gt;</td>
+      <td><a href="https://wiki.freepascal.org/Not_equal" title="Not equal">Not equal</a></td>
+    </tr>
+    <tr>
+      <td>&amp;&amp;</td>
+      <td><a href="https://wiki.freepascal.org/And" title="And">And</a></td>
+      <td>Logical and</td>
+    </tr>
+    <tr>
+      <td>|</td>
+      <td><a href="https://wiki.freepascal.org/Or" title="Or">Or</a></td>
+      <td>Logical or</td>
+    </tr>
+    <tr>
+      <td>&amp;</td>
+      <td><a href="https://wiki.freepascal.org/And" title="And">And</a></td>
+      <td>Bitwise and</td>
+    </tr>
+    <tr>
+      <td>|</td>
+      <td><a href="https://wiki.freepascal.org/Or" title="Or">Or</a></td>
+      <td>Bitwise or</td>
+    </tr>
+    <tr>
+      <td>^</td>
+      <td><a href="https://wiki.freepascal.org/Xor" title="Xor">Xor</a></td>
+      <td>Exclusive or</td>
+    </tr>
+    <tr>
+      <td>~</td>
+      <td><a href="https://wiki.freepascal.org/Not" title="Not">Not</a></td>
+      <td>One’s complement</td>
+    </tr>
+    <tr>
+      <td>&gt;&gt;</td>
+      <td><a href="https://wiki.freepascal.org/Shr" title="Shr">Shr</a></td>
+      <td>bit shift right   Note: shr is a logical bitshift, not arithmetic. If the left operand is a negative value of a signed type, then the result of an shr operation may not be what you expect.</td>
+    </tr>
+    <tr>
+      <td>«</td>
+      <td><a href="https://wiki.freepascal.org/Shl" title="Shl">Shl</a></td>
+      <td>bit shift left</td>
+    </tr>
+    <tr>
+      <td>++</td>
+      <td><a href="https://wiki.freepascal.org/Inc" title="Inc">Inc</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>--</td>
+      <td><a href="https://wiki.freepascal.org/Dec" title="Dec">Dec</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>/*</td>
+      <td>{ or (*</td>
+      <td><a href="https://wiki.freepascal.org/Comments" title="Comments">Comment</a> start</td>
+    </tr>
+    <tr>
+      <td>*/</td>
+      <td>} or *)</td>
+      <td>Comment end</td>
+    </tr>
+    <tr>
+      <td>//</td>
+      <td>//</td>
+      <td>End of line comment (only one line comment)</td>
+    </tr>
+    <tr>
+      <td>0x</td>
+      <td><a href="https://wiki.freepascal.org/Dollar_sign" title="Dollar sign">$</a></td>
+      <td>prefix for hex-number e.g. $FFFFFF</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td><a href="https://wiki.freepascal.org/%26" title="&amp;">&amp;</a></td>
+      <td>prefix for oct-number e.g. &amp;77777777</td>
+    </tr>
+    <tr>
+      <td>0b</td>
+      <td><a href="https://wiki.freepascal.org/Percent_sign" title="Percent sign">%</a></td>
+      <td>prefix for bin-number e.g. %11111111</td>
+    </tr>
+    <tr>
+      <td>&amp;</td>
+      <td><a href="https://wiki.freepascal.org/@" title="@">@</a></td>
+      <td><a href="https://wiki.freepascal.org/@" title="@">address operator</a></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td><a href="https://wiki.freepascal.org/%5E&quot;^&quot;"> ^ </a></td>
+      <td>See <a href="https://wiki.freepascal.org/Pointer" title="Pointer">Pointer</a> and <a href="https://wiki.freepascal.org/Pointers" title="Pointers">Pointers</a></td>
+    </tr>
+    <tr>
+      <td>if()</td>
+      <td><a href="https://wiki.freepascal.org/If" title="If">If</a> <a href="https://wiki.freepascal.org/Then" title="Then">Then</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>if() else</td>
+      <td><a href="https://wiki.freepascal.org/If" title="If">If</a> <a href="https://wiki.freepascal.org/Then" title="Then">Then</a> <a href="https://wiki.freepascal.org/Else" title="Else">Else</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>while</td>
+      <td><a href="https://wiki.freepascal.org/While" title="While">While</a> <a href="https://wiki.freepascal.org/Do" title="Do">Do</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>do while</td>
+      <td><a href="https://wiki.freepascal.org/Repeat" title="Repeat">Repeat</a> <a href="https://wiki.freepascal.org/Until" title="Until">Until</a> <a href="https://wiki.freepascal.org/Not" title="Not">Not</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>do while !</td>
+      <td><a href="https://wiki.freepascal.org/Repeat" title="Repeat">Repeat</a> <a href="https://wiki.freepascal.org/Until" title="Until">Until</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>for ++</td>
+      <td><a href="https://wiki.freepascal.org/For" title="For">For</a> <a href="https://wiki.freepascal.org/To" title="To">To</a> <a href="https://wiki.freepascal.org/Do" title="Do">Do</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>for –</td>
+      <td><a href="https://wiki.freepascal.org/For" title="For">For</a> <a href="https://wiki.freepascal.org/Downto" title="Downto">Downto</a> <a href="https://wiki.freepascal.org/Do" title="Do">Do</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>switch case break</td>
+      <td><a href="https://wiki.freepascal.org/Case" title="Case">Case</a> <a href="https://wiki.freepascal.org/Of" title="Of">Of</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>switch case break default</td>
+      <td><a href="https://wiki.freepascal.org/Case" title="Case">Case</a> <a href="https://wiki.freepascal.org/Of" title="Of">Of</a> <a href="https://wiki.freepascal.org/Else" title="Else">Else</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>const a_c_struct *arg</td>
+      <td><a href="https://wiki.freepascal.org/Constref" title="Constref">Constref</a> arg : a_c_struct</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>a_c_struct *arg</td>
+      <td><a href="https://wiki.freepascal.org/Var" title="Var">Var</a> arg : a_c_struct</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>C type</th>
+      <th><a href="https://wiki.freepascal.org/Pascal" title="Pascal">Pascal</a> <a href="https://wiki.freepascal.org/Data_type" title="Data type">type</a></th>
+      <th>Size (bits)</th>
+      <th>Range</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>char</td>
+      <td><a href="https://wiki.freepascal.org/Char" title="Char">Char</a></td>
+      <td>8-bit</td>
+      <td> </td>
+      <td><a href="https://wiki.freepascal.org/ASCII" title="ASCII">ASCII</a></td>
+    </tr>
+    <tr>
+      <td>signed char</td>
+      <td><a href="https://wiki.freepascal.org/Shortint" title="Shortint">Shortint</a></td>
+      <td>8-bit</td>
+      <td>-128 .. 127</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>unsigned char</td>
+      <td><a href="https://wiki.freepascal.org/Byte" title="Byte">Byte</a></td>
+      <td>8-bit</td>
+      <td>0 .. 255</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>char*</td>
+      <td><a href="https://wiki.freepascal.org/PChar" title="PChar">PChar</a></td>
+      <td>(32-bit)</td>
+      <td> </td>
+      <td>Pointer to a null-terminated string</td>
+    </tr>
+    <tr>
+      <td>short int</td>
+      <td><a href="https://wiki.freepascal.org/Smallint" title="Smallint">Smallint</a></td>
+      <td>16-bit</td>
+      <td>-32768 .. 32767</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>unsigned short int</td>
+      <td><a href="https://wiki.freepascal.org/Word" title="Word">Word</a></td>
+      <td>16-bit</td>
+      <td>0 .. 65535</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>int</td>
+      <td><a href="https://wiki.freepascal.org/Integer" title="Integer">Integer</a></td>
+      <td>(16-bit or) 32-bit</td>
+      <td>-2147483648..2147483647</td>
+      <td>Generic integer types</td>
+    </tr>
+    <tr>
+      <td>unsigned int</td>
+      <td><a href="https://wiki.freepascal.org/Cardinal" title="Cardinal">Cardinal</a></td>
+      <td>(16-bit or) 32-bit</td>
+      <td>0 .. 4294967295</td>
+      <td>Generic integer types</td>
+    </tr>
+    <tr>
+      <td>long int</td>
+      <td><a href="https://wiki.freepascal.org/Longint" title="Longint">Longint</a></td>
+      <td>32-bit</td>
+      <td>-2147483648..2147483647</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>unsigned long int</td>
+      <td><a href="https://wiki.freepascal.org/Longword" title="Longword">Longword</a></td>
+      <td>32-bit</td>
+      <td>0 .. 4294967295</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>float</td>
+      <td><a href="https://wiki.freepascal.org/Single" title="Single">Single</a></td>
+      <td>32-bit</td>
+      <td>1.5E-45 .. 3.4E+38</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>double</td>
+      <td><a href="https://wiki.freepascal.org/Double" title="Double">Double</a></td>
+      <td>64-bit</td>
+      <td>5.0E-324 .. 1.7E+308</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>C type</th>
+      <th><a href="https://wiki.freepascal.org/Pascal" title="Pascal">Pascal</a></th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>struct { }</td>
+      <td><a href="https://wiki.freepascal.org/Record" title="Record">Record</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>union { }</td>
+      <td><a href="https://wiki.freepascal.org/Record" title="Record">Record</a> <a href="https://wiki.freepascal.org/Case" title="Case">Case</a> <a href="https://wiki.freepascal.org/Of" title="Of">Of</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td><a href="https://wiki.freepascal.org/Case#Variant_Record" title="Case">Variant Record</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>C</th>
+      <th><a href="https://wiki.freepascal.org/Pascal" title="Pascal">Pascal</a></th>
+      <th><a href="https://wiki.freepascal.org/Unit" title="Unit">Unit</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>abs</td>
+      <td>Abs</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>acos</td>
+      <td>ArcCos</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>asin</td>
+      <td>ArcSin</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>atan</td>
+      <td>ArcTan</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>atof</td>
+      <td>StrToFloat</td>
+      <td><a href="https://wiki.freepascal.org/sysutils" title="sysutils">SysUtils</a></td>
+    </tr>
+    <tr>
+      <td>atoi</td>
+      <td>StrToInt</td>
+      <td><a href="https://wiki.freepascal.org/sysutils" title="sysutils">SysUtils</a></td>
+    </tr>
+    <tr>
+      <td>atol</td>
+      <td>StrToInt</td>
+      <td><a href="https://wiki.freepascal.org/sysutils" title="sysutils">SysUtils</a></td>
+    </tr>
+    <tr>
+      <td>atoll</td>
+      <td>StrToInt64</td>
+      <td><a href="https://wiki.freepascal.org/sysutils" title="sysutils">SysUtils</a></td>
+    </tr>
+    <tr>
+      <td>ceil</td>
+      <td>Ceil</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>cos</td>
+      <td>Cos</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>exp</td>
+      <td>Exp</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>floor</td>
+      <td>Floor</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>pow</td>
+      <td>Power</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>round</td>
+      <td>Round</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>sin</td>
+      <td>Sin</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>sqrt</td>
+      <td>Sqrt</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>strcpy</td>
+      <td>Copy</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>strlen</td>
+      <td>Length</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+    <tr>
+      <td>tan</td>
+      <td>Tan</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Math_unit&amp;action=edit&amp;redlink=1" title="Math unit (page does not exist)">Math</a></td>
+    </tr>
+    <tr>
+      <td>toupper</td>
+      <td>UpCase</td>
+      <td><a href="https://wiki.freepascal.org/System_unit" title="System unit">System</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="c">C++</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>C++ type</th>
+      <th><a href="https://wiki.freepascal.org/Pascal" title="Pascal">Pascal</a></th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>class { }</td>
+      <td><a href="https://wiki.freepascal.org/Class" title="Class">Class</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>class: { }</td>
+      <td><a href="https://wiki.freepascal.org/Class" title="Class">Class</a>( ) <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>template &lt;class T&gt; class { }</td>
+      <td><a href="https://wiki.freepascal.org/index.php?title=Generic&amp;action=edit&amp;redlink=1" title="Generic (page does not exist)">Generic</a> = <a href="https://wiki.freepascal.org/Class" title="Class">Class</a>&lt;T&gt; <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>struct { }</td>
+      <td><a href="https://wiki.freepascal.org/Object" title="Object">Object</a> <a href="https://wiki.freepascal.org/End" title="End">End</a></td>
+      <td>If you want methods</td>
+    </tr>
+  </tbody>
+</table>
+:ET

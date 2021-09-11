@@ -1,0 +1,2 @@
+I"<p><strong>Note:</strong> Logical operators (AND/OR/XOR etc) are logical or boolean depending on the type of the arguments (boolean or integer). Since Pascal had a separate boolean type from the start, boolean operators on integers were not necessary, and are always logical.</p>
+:ET
