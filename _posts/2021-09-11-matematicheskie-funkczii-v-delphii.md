@@ -27,13 +27,13 @@ uses
 |**Int(X)**|Extended|Extended|Возвращает целу часть, отпросив дробную.|
 |**IntPower**|Extended, Integer|Extended|Возвращает значение Base, возведенное в степень Exponent.|
 |**Ln(X)**|Extended|Extended|Возвращает значение натурального логарифма от X.|
-|**Log10(X)**| 	Extended| 	Extended| 	Возвращает значение десятичного логарифма от X.|
-|**Log2(X)**| 	Extended| 	Extended| 	Возвращает значение логарифма от X по основанию 2.|
-|**LogN**| (Base, X)|Extended, Extended|Extended|Возвращает значение логарифма от X по основанию Base.|
-|**Max(A, B**)| 	Integer|	Integer |Возвращает максимальное из двух чисел.|
-|**Min(A, B)**| 	Integer| 	Integer |Возвращает минимальное из двух чисел.|
-|**Pi** 	| | 	Extended| 	Возвращает значение числа Пи.|
-|**Power (Base, Exponent)**| 	Extended, Extended| 	Extended| 	Возвращает значение Base, возведенное в степень Exponent. |
+|**Log10(X)**|Extended|Extended|Возвращает значение десятичного логарифма от X.|
+|**Log2(X)**|Extended|Extended|Возвращает значение логарифма от X по основанию 2.|
+|**LogN**(Base, X)|Extended, Extended|Extended|Возвращает значение логарифма от X по основанию Base.|
+|**Max(A, B**)|Integer|Integer|Возвращает максимальное из двух чисел.|
+|**Min(A, B)**|Integer|Integer|Возвращает минимальное из двух чисел.|
+|**Pi**| |Extended|Возвращает значение числа Пи.|
+|**Power (Base, Exponent)**|Extended, Extended|Extended|Возвращает значение Base, возведенное в степень Exponent. |
 |**Round(X)**|Real|Int64|Округляет дробное число до целого в ближайшую сторону.|
 |**Sqr(X)**|Real|Extended|Возвращает X возведенное в квадратную степерь.|
 |**Sqrt(X)**|Extended|Extended|Возвращает квадратный корень из числа X.|
