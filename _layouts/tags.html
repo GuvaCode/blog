@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: page
+# All the Tags of posts.
 ---
 
-<article role="article" class="post">
-<h1>All tags</h1>
-{% assign tags = site.tags | sort %}
-<ul>
-{% for tag in tags %}
- <li>
-    <a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
-</li>
+<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
 
-{% endfor %}
-</ul>
-</article>
+  {% assign tags = "" | split: "" %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+
+  {% for t in sorted_tags %}
+    <div>
+      <a class="tag" href="{{ site.baseurl }}/tags/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+    </div>
+  {% endfor %}
+
+</div>
