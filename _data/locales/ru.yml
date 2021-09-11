@@ -51,10 +51,10 @@ copyright:
 meta: Powered by :PLATFORM with :THEME theme.
 
 not_found:
-  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-  hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
-  head_back: Head back Home
-  archives_page: Archives page
+  statment: Извините, мы потеряли этот URL-адрес или он указывает на то, чего не существует.
+  hint_template: :HEAD_BAK чтобы попытаться найти его снова или выполнить поиск на :ARCHIVES_PAGE.
+  head_back: Вернуться на главную
+  archives_page: Страница архивов
 
 # ----- Posts related labels -----
 
@@ -71,7 +71,7 @@ post:
   read_time:
     unit: минут(ы)
     prompt: читать 
-  relate_posts: Дальнейшее Чтение
+  relate_posts: Продолжить чтение
   share: Поделиться
   button:
     next: Новее
@@ -84,5 +84,5 @@ post:
 
 # categories page
 categories:
-  category_measure: categories
+  category_measure: Категории
   post_measure: posts
