@@ -6,6 +6,9 @@ categories: [Tutorial]
 tags: [lazarus,pascal,c,c++,programming]
 pin: true
 ---
+Pascal for C users
+==================
+
 **Note:** Logical operators (AND/OR/XOR etc) are logical or boolean depending on the type of the arguments (boolean or integer). Since Pascal had a separate boolean type from the start, boolean operators on integers were not necessary, and are always logical.
 
 | C   | [Pascal](https://wiki.freepascal.org/Pascal "Pascal") | Notes |
@@ -64,7 +67,7 @@ pin: true
 | unsigned long int | [Longword](https://wiki.freepascal.org/Longword "Longword") | 32-bit | 0 .. 4294967295 |     |
 | float | [Single](https://wiki.freepascal.org/Single "Single") | 32-bit | 1.5E-45 .. 3.4E+38 |     |
 | double | [Double](https://wiki.freepascal.org/Double "Double") | 64-bit | 5.0E-324 .. 1.7E+308 |     |
-
+| unsigned long long | [QWord](https://wiki.freepascal.org/QWord "QWord")| 64-bit | 0 .. 18446744073709551615 | 
   
 
 | C type | [Pascal](https://wiki.freepascal.org/Pascal "Pascal") | Notes |
@@ -108,3 +111,4 @@ pin: true
 | class: { } | [Class](https://wiki.freepascal.org/Class "Class")( ) [End](https://wiki.freepascal.org/End "End") |     |
 | template &lt;class T&gt; class { } | [Generic](https://wiki.freepascal.org/index.php?title=Generic&action=edit&redlink=1 "Generic (page does not exist)") = [Class](https://wiki.freepascal.org/Class "Class")&lt;T&gt; [End](https://wiki.freepascal.org/End "End") |     |
 | struct { } | [Object](https://wiki.freepascal.org/Object "Object") [End](https://wiki.freepascal.org/End "End") | If you want methods |
+
